@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Binary Clock
+Type=Service
+Icon=org.kde.plasma.binaryclock
+Comment=Simple Binary Clock for small panels
+X-KDE-PluginInfo-Author=Sonia Zorba
+X-KDE-PluginInfo-Email=zonia3000@gmail.com
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=org.kde.contrib.binaryclock
+X-Plasma-Provides=org.kde.plasma.time,org.kde.plasma.date
+X-KDE-PluginInfo-Category=Date and Time
+X-KDE-PluginInfo-Version=1.0
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Category=Date and Time

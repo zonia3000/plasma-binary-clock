@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <entry name="showSeconds" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="circles" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="activeColor" type="Color">
+      <default>#ffff00</default>
+    </entry>
+    <entry name="idleColor" type="Color">
+      <default>#646400</default>
+    </entry>
+    <entry name="borderColor" type="Color">
+      <default>#000000</default>
+    </entry>
+    <entry name="borderSize" type="UInt">
+      <default>1</default>
+    </entry>
+  </group>
+
+</kcfg>
