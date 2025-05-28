@@ -1,0 +1,23 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "sonia.zorba@mailbox.org",
+        "Name": "Sonia Zorba"
+      }
+    ],
+    "BugReportUrl": "https://github.com/zonia3000/plasma-binary-clock/issues/new",
+    "Category": "Date and Time",
+    "Description": "Simple Binary Clock for small panels",
+    "Icon": "org.kde.plasma.binaryclock",
+    "Id": "org.kde.plasma.contrib.binaryclock",
+    "EnabledByDefault": true,
+    "FormFactors": ["tablet", "handset", "desktop"],
+    "License": "GPL-2.0+",
+    "Name": "Binary Clock",
+    "Website": "https://github.com/zonia3000/plasma-binary-clock"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-Provides": ["org.kde.plasma.time", "org.kde.plasma.date"]
+}

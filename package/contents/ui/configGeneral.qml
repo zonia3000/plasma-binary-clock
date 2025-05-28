@@ -1,7 +1,7 @@
-import QtQuick 2.0
-import QtQuick.Controls 2.0
-import org.kde.kquickcontrols 2.0 as KQuickControls
-import org.kde.kirigami 2.3 as Kirigami
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import org.kde.kquickcontrols as KQuickControls
+import org.kde.kirigami as Kirigami
 
 Kirigami.FormLayout {
     property alias cfg_showSeconds: showSecondsCheckBox.checked

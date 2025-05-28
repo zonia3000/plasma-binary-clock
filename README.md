@@ -6,15 +6,15 @@ Appearance is customizable:
 
 ![binary clock screenshot](binary_clocks_screenshot.jpg)
 
+The latest version works with Plasma 6. For Plasma 5 checkout the 0.1.0 tag.
 
 ## Install
 
-    kpackagetool5 -t Plasma/Applet --install ./plasmoid/
-
+    kpackagetool6 -t Plasma/Applet --install ./package/
 
 ## Remove
 
-    kpackagetool5 -t Plasma/Applet --remove ./plasmoid/
+    kpackagetool6 -t Plasma/Applet --remove org.kde.plasma.contrib.binaryclock
 
 ## Development
 
@@ -22,5 +22,4 @@ Appearance is customizable:
 
 ### Test
 
-    plasmoidviewer --applet ./plasmoid/
-
+    plasmoidviewer --applet ./package/
